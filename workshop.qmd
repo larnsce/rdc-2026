@@ -1,0 +1,119 @@
+---
+title: "Git for Scientists: a 120-minute hands-on workshop, taught from the learner's seat and pitched to educators"
+subtitle: "RDC 2026 workshop submission - Swiss Research Data Support Network"
+title-block-banner: true
+date: today
+author:
+  - name: Lars Schöbitz
+    orcid: 0000-0003-1271-7044
+    email: lars.schoebitz@ethz.ch
+    affiliations:
+      - name: ETH Zürich
+        address: Clausiusstrasse 37
+        city: Zürich
+        postal-code: 8092
+        url: https://ghe.ethz.ch/
+    attributes:
+      corresponding: true
+abstract: |
+  This 120-minute hands-on workshop introduces an applied, project-based
+  approach to Git and GitHub for scientific collaboration. Participants
+  attend as learners working through a condensed version of the actual
+  material, while the real target audience is educators in data
+  stewardship, research software engineering, and data science who want
+  to assess whether they could teach the workshop themselves. A
+  substantial closing block is reserved for the educator-lens discussion
+  and structured feedback. It is also our group's first resource
+  published as a complete Open Educational Resource (OER), with a
+  documented three-org GitHub layout and a FAIR audit of every teaching
+  repository.
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    embed-resources: true
+    theme: cosmo
+  docx:
+    toc: false
+    number-sections: false
+---
+
+## Submission metadata
+
+- **Conference:** Research Data Conference (RDC) 2026, Swiss Research Data Support Network (SRDSN)
+- **Format:** Workshop (120 min)
+- **Presenter:** Lars Schöbitz (sole presenter)
+- **Conference areas addressed:**
+    1. Research data support in practice - training and consultation, scaling support
+    2. Research Software - reproducible analysis, code review practices
+    3. Research data professionals - competencies, training pathways, embedded data stewardship
+    4. Open Science & ORD - recognition for software contributions, Open Educational Resources
+
+## Abstract
+
+Git and GitHub remain the connective tissue of reproducible, collaborative research, yet most researchers learn them through fragmented tutorials that stop short of the collaboration patterns that matter in practice: branching, pull requests, code review, and merging. *Git for Scientists* is a 120-minute hands-on workshop that gives participants an applied, project-based introduction. It is designed for learners who have worked with software before but have not had a solid, applied introduction to Git and GitHub.
+
+The workshop is delivered as if every participant were a learner, but the real audience is educators: data stewards, research software engineers, data science instructors, and others who teach (or want to teach) similar material. Attendees experience the full instructional design from the learner's seat, then step back to evaluate whether the workshop would be applicable for them to teach in their own context. This dual framing is intentional. The session is both a learning experience and a peer review of the design, and we will solicit structured feedback at the end. A confirmed positive evaluation would motivate a follow-up session in which interested educators are walked through the workflows for reusing this OER with their own cohorts, including setting up the infrastructure to teach it.
+
+*Git for Scientists* is also our group's first resource published as a complete Open Educational Resource. The supporting infrastructure (a three-organisation GitHub layout for canonical material, development, and per-iteration delivery, and a FAIR audit applied to every teaching repository in the family) is documented and openly licensed.
+
+A week before the workshop, participants will receive detailed setup instructions to ensure the correct local environment is in place on the day. This deliberately differs from the Posit Cloud environment we use for complete novices: experienced participants benefit from running Git and RStudio locally, and this choice is itself a design decision we want educators to scrutinise.
+
+## Learning objectives
+
+By the end of the workshop, participants will be able to:
+
+1. Create and clone repositories, and clearly explain the difference between cloning and forking a repository.
+2. Apply the standard Git workflow using the RStudio IDE, including pulling, staging, committing, and pushing changes.
+3. Work with branches and pull requests by creating and managing development branches, submitting pull requests, and reviewing and commenting on others' pull requests.
+4. Critique the workshop's instructional design (sequencing, scaffolding, exercises) from an educator's perspective and identify what would be needed to teach it in their own setting.
+
+## Agenda (120 min)
+
+| Time      | Block                                                                                                  |
+|-----------|--------------------------------------------------------------------------------------------------------|
+| 0:00–0:10 | Welcome, dual framing (learner seat / educator lens), environment check.                               |
+| 0:10–0:25 | GitHub for collaboration. Why Git, why GitHub, repository as project unit.                             |
+| 0:25–0:50 | Create and clone. Repository creation, clone vs. fork, first pull/stage/commit/push from RStudio.      |
+| 0:50–1:05 | Branching. Creating and managing development branches on a shared project.                             |
+| 1:05–1:20 | Pull request, review, and merge. Pair-based review of each other's branches.                           |
+| 1:20–1:25 | Publish. Releasing the final state of the project repository.                                          |
+| 1:25–1:30 | Short break.                                                                                           |
+| 1:30–1:50 | Educator lens, part 1. Walk-through of the OER infrastructure (three-org GitHub layout, FAIR audit of teaching repositories) and the design decisions behind module sequencing and prior-knowledge assumptions. |
+| 1:50–2:00 | Educator lens, part 2. Structured feedback round on teach-ability and discussion of a follow-up "teach-the-teachers" workshop for educators who want to reuse the material. |
+
+The hands-on portion is a condensed version of the standard 105-minute *Git for Scientists* course, run end-to-end so educators see the full instructional arc rather than a slice of it. The remaining time is dedicated to the educator-lens discussion and structured feedback.
+
+## Methods
+
+- **Project-based instruction.** Participants work on a single applied project across the session, with each module adding one collaboration mechanic. Concepts are introduced only where they unblock the next step, not as a separate theory layer.
+- **Live coding with sticky-note signalling.** The instructor live-codes; participants follow along on their own machines and signal progress or trouble via coloured sticky notes (green / red).
+- **Pair collaboration.** The Pull Request and Merge block pairs participants so they perform reviews on each other's branches, mirroring the real review dynamic.
+- **Educator switch at the end.** The final block shifts mode: participants step out of the learner role and evaluate the design as educators, with prompts covering scaffolding, prior-knowledge assumptions, transferability, and infrastructure burden.
+- **Structured feedback.** A short post-workshop form (Likert items plus free text) is used to assess teach-ability for the follow-up workshop.
+
+## Prerequisites
+
+Participants are expected to be comfortable with R and RStudio, specifically:
+
+- Installing and loading R packages
+- Reading and running short R scripts
+- Editing and running R Markdown or Quarto documents
+- Navigating the RStudio IDE and identifying its four panes (Script, Environment, Files, Console)
+
+A GitHub account and a working local install of Git, R, and RStudio (set up via the pre-workshop instructions) are required. Participants without these will still benefit from the educator-lens portion but will not be able to follow the hands-on exercises.
+
+## Target audience
+
+Educators and educator-adjacent practitioners in data stewardship, research software engineering, data science, and related fields who teach (or plan to teach) applied Git and GitHub. Secondary audience: data stewards and research support staff who run training programmes and are evaluating OER for adoption.
+
+## Keywords
+
+Git and GitHub, Open Educational Resources, instructional design, collaboration, project-based learning
+
+## Optional links
+
+- Workshop website (current iteration): <https://gitforsci-cis.github.io/website/>
+- Workshop source repository: <https://github.com/gitforsci-cis/website>
+- Companion `ghedata` repository (referenced in the related talk submission): <https://github.com/Global-Health-Engineering/ghedata-code>
