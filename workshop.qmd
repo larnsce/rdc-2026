@@ -52,46 +52,25 @@ format:
 
 ## Abstract
 
-Git and GitHub remain the connective tissue of reproducible, collaborative research, yet most researchers learn them through fragmented tutorials that stop short of the collaboration patterns that matter in practice: branching, pull requests, code review, and merging. *Git for Scientists* is a 120-minute hands-on workshop that gives participants an applied, project-based introduction. It is designed for learners who have worked with software before but have not had a solid, applied introduction to Git and GitHub.
+Git and GitHub remain the connective tissue of reproducible, collaborative research, yet many researchers learn them through fragmented tutorials that stop short of the collaboration patterns that matter in practice: branching, pull requests, code review, and merging. *Git for Scientists* is a 120-minute hands-on workshop offering an applied, project-based introduction for learners who have worked with software before but have not had a solid, applied introduction to Git and GitHub.
 
-The workshop is delivered as if every participant were a learner, but the real audience is educators: data stewards, research software engineers, data science instructors, and others who teach (or want to teach) similar material. Attendees experience the full instructional design from the learner's seat, then step back to evaluate whether the workshop would be applicable for them to teach in their own context. This dual framing is intentional. The session is both a learning experience and a peer review of the design, and we will solicit structured feedback at the end. A confirmed positive evaluation would motivate a follow-up session in which interested educators are walked through the workflows for reusing this OER with their own cohorts, including setting up the infrastructure to teach it.
+The workshop is delivered as if every participant were a learner, but the real audience is educators: data stewards, research software engineers, data science instructors, and others who teach (or want to teach) similar material. Attendees first experience a condensed version of the full course from the learner's seat, then switch to an educator lens for a substantial closing block to evaluate whether they could teach the workshop in their own context. The session is both a learning experience and a peer review of the design. A positive evaluation would motivate a follow-up "teach-the-teachers" workshop on reusing this Open Educational Resource (OER).
 
-*Git for Scientists* is also our group's first resource published as a complete Open Educational Resource. The supporting infrastructure (a three-organisation GitHub layout for canonical material, development, and per-iteration delivery, and a FAIR audit applied to every teaching repository in the family) is documented and openly licensed.
-
-A week before the workshop, participants will receive detailed setup instructions to ensure the correct local environment is in place on the day. This deliberately differs from the Posit Cloud environment we use for complete novices: experienced participants benefit from running Git and RStudio locally, and this choice is itself a design decision we want educators to scrutinise.
+*Git for Scientists* is our group's first resource published as a complete OER, with a three-organisation GitHub layout (canonical, development, per-iteration delivery) and a FAIR audit applied to every teaching repository. Pre-workshop instructions cover a local Git and RStudio install, which deliberately differs from the Posit Cloud environment we use for complete novices and is itself a design decision worth scrutinising.
 
 ## Learning objectives
 
 By the end of the workshop, participants will be able to:
 
-1. Create and clone repositories, and clearly explain the difference between cloning and forking a repository.
-2. Apply the standard Git workflow using the RStudio IDE, including pulling, staging, committing, and pushing changes.
-3. Work with branches and pull requests by creating and managing development branches, submitting pull requests, and reviewing and commenting on others' pull requests.
-4. Critique the workshop's instructional design (sequencing, scaffolding, exercises) from an educator's perspective and identify what would be needed to teach it in their own setting.
+1. Critique the workshop's instructional design (sequencing, scaffolding, exercises) from an educator's perspective and identify what would be needed to teach it in their own setting.
+2. Describe a concrete approach to designing OER for teaching Git and GitHub, including the three-org GitHub layout and the FAIR audit that underpin it.
 
 ## Agenda (120 min)
 
-| Time      | Block                                                                                                  |
-|-----------|--------------------------------------------------------------------------------------------------------|
-| 0:00–0:10 | Welcome, dual framing (learner seat / educator lens), environment check.                               |
-| 0:10–0:25 | GitHub for collaboration. Why Git, why GitHub, repository as project unit.                             |
-| 0:25–0:50 | Create and clone. Repository creation, clone vs. fork, first pull/stage/commit/push from RStudio.      |
-| 0:50–1:05 | Branching. Creating and managing development branches on a shared project.                             |
-| 1:05–1:20 | Pull request, review, and merge. Pair-based review of each other's branches.                           |
-| 1:20–1:25 | Publish. Releasing the final state of the project repository.                                          |
-| 1:25–1:30 | Short break.                                                                                           |
-| 1:30–1:50 | Educator lens, part 1. Walk-through of the OER infrastructure (three-org GitHub layout, FAIR audit of teaching repositories) and the design decisions behind module sequencing and prior-knowledge assumptions. |
-| 1:50–2:00 | Educator lens, part 2. Structured feedback round on teach-ability and discussion of a follow-up "teach-the-teachers" workshop for educators who want to reuse the material. |
-
-The hands-on portion is a condensed version of the standard 105-minute *Git for Scientists* course, run end-to-end so educators see the full instructional arc rather than a slice of it. The remaining time is dedicated to the educator-lens discussion and structured feedback.
-
-## Methods
-
-- **Project-based instruction.** Participants work on a single applied project across the session, with each module adding one collaboration mechanic. Concepts are introduced only where they unblock the next step, not as a separate theory layer.
-- **Live coding with sticky-note signalling.** The instructor live-codes; participants follow along on their own machines and signal progress or trouble via coloured sticky notes (green / red).
-- **Pair collaboration.** The Pull Request and Merge block pairs participants so they perform reviews on each other's branches, mirroring the real review dynamic.
-- **Educator switch at the end.** The final block shifts mode: participants step out of the learner role and evaluate the design as educators, with prompts covering scaffolding, prior-knowledge assumptions, transferability, and infrastructure burden.
-- **Structured feedback.** A short post-workshop form (Likert items plus free text) is used to assess teach-ability for the follow-up workshop.
+- 0:00–0:10 — Welcome and dual framing (learner seat / educator lens).
+- 0:10–1:25 — Condensed *Git for Scientists* course: create and clone, branching, pull requests and review, merging, publishing.
+- 1:25–1:30 — Break.
+- 1:30–2:00 — Educator-lens walk-through of the OER infrastructure and structured feedback round.
 
 ## Prerequisites
 
