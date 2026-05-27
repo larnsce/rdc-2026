@@ -15,18 +15,6 @@ author:
         url: https://ghe.ethz.ch/
     attributes:
       corresponding: true
-abstract: |
-  This 120-minute hands-on workshop introduces an applied, project-based
-  approach to Git and GitHub for scientific collaboration. Participants
-  attend as learners working through a condensed version of the actual
-  material, while the real target audience is educators in data
-  stewardship, research software engineering, and data science who want
-  to assess whether they could teach the workshop themselves. A
-  substantial closing block is reserved for the educator-lens discussion
-  and structured feedback. It is also our group's first resource
-  published as a complete Open Educational Resource (OER), with a
-  documented three-org GitHub layout and a FAIR audit of every teaching
-  repository.
 format:
   html:
     toc: true
@@ -44,11 +32,6 @@ format:
 - **Conference:** Research Data Conference (RDC) 2026, Swiss Research Data Support Network (SRDSN)
 - **Format:** Workshop (120 min)
 - **Presenter:** Lars Schöbitz (sole presenter)
-- **Conference areas addressed:**
-    1. Research data support in practice - training and consultation, scaling support
-    2. Research Software - reproducible analysis, code review practices
-    3. Research data professionals - competencies, training pathways, embedded data stewardship
-    4. Open Science & ORD - recognition for software contributions, Open Educational Resources
 
 ## Abstract
 
@@ -95,4 +78,3 @@ Git and GitHub, Open Educational Resources, instructional design, collaboration,
 
 - Workshop website (current iteration): <https://gitforsci-cis.github.io/website/>
 - Workshop source repository: <https://github.com/gitforsci-cis/website>
-- Companion `ghedata` repository (referenced in the related talk submission): <https://github.com/Global-Health-Engineering/ghedata-code>
