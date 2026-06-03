@@ -45,8 +45,9 @@ The workshop is delivered as if every participant were a learner, but the real a
 
 By the end of the workshop, participants will be able to:
 
-1. Critique the workshop's instructional design (sequencing, scaffolding, exercises) from an educator's perspective and identify what would be needed to teach it in their own setting.
-2. Describe a concrete approach to designing OER for teaching Git and GitHub, including the three-org GitHub layout and the FAIR audit that underpin it.
+1. Apply core Git and GitHub collaboration patterns (branching, pull requests, code review, merging) to a small project.
+2. Evaluate the workshop's instructional design (sequencing, scaffolding, exercises) from an educator's perspective.
+3. Assess whether they could reuse and adapt the workshop materials to teach Git and GitHub in their own setting.
 
 ## Agenda (120 min)
 
@@ -65,6 +66,8 @@ Participants are expected to be comfortable with R and RStudio, specifically:
 - Navigating the RStudio IDE and identifying its four panes (Script, Environment, Files, Console)
 
 A GitHub account and a working local install of Git, R, and RStudio (set up via the pre-workshop instructions) are required. Participants without these will still benefit from the educator-lens portion but will not be able to follow the hands-on exercises.
+
+Prior experience with Git and GitHub is an advantage but not required. Participants new to Git and GitHub can use the workshop to build a foundation they can later draw on when teaching the material themselves.
 
 ## Target audience
 
