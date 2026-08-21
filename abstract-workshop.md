@@ -5,7 +5,7 @@ title-block-banner: true
 date: today
 author:
   - name: Lars Schöbitz
-    orcid: 0000-0003-1271-7044
+    orcid: 0000-0003-2196-5015
     email: lars.schoebitz@ethz.ch
     affiliations:
       - name: ETH Zürich
